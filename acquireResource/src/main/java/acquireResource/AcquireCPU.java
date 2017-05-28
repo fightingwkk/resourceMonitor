@@ -32,8 +32,8 @@ public class AcquireCPU {
 		}
 		double idle1 = numdata1[3];// CPU未使用的时间
 		double idle2 = numdata2[3];// CPU未使用的时间
-		System.out.println(info1);
-		System.out.println(info2);
+		//System.out.println(info1);
+		//System.out.println(info2);
 		CPUUsageRate = 1.0 - (idle2 - idle1) / (total2 - total1);//CPU使用率
 		JSONObject json = new JSONObject();
 		json.put("CPUUsageRate", CPUUsageRate);

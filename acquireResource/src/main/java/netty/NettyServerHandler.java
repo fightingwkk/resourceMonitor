@@ -18,6 +18,7 @@ public class NettyServerHandler extends ChannelHandlerAdapter {
 		// buf.readBytes(req);
 		String body = (String) msg;
 		System.out.println(body);
+		
 //		if(body.startsWith("{\"CPUUsageRate\":")){
 //			JSONObject json =  JSONObject.fromObject(body);
 //		}
@@ -50,12 +51,15 @@ public class NettyServerHandler extends ChannelHandlerAdapter {
 	// ctx.flush();
 	// }
 	@Override
-	public void channelActive(ChannelHandlerContext ctx) throws Exception {
+	public void channelActive(final ChannelHandlerContext ctx) throws Exception {
 		String message = null;
 		message = "acquireResource";
 		message += System.getProperty("line.separator");
+		//while(true){
 		ByteBuf resp = Unpooled.copiedBuffer(message.getBytes());
 		ctx.writeAndFlush(resp);
+		//Thread.sleep(5000);
+		
 	}
 
 	@Override

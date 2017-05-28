@@ -15,8 +15,8 @@ public class AcquireNetIO {
 			info1 = Runcommand.runCommand(CMD);
 			Thread.sleep(1000);//隔一秒再执行一次
 			info2 = Runcommand.runCommand(CMD);
-			System.out.println(info1);
-			System.out.println(info2);
+			//System.out.println(info1);
+			//System.out.println(info2);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
