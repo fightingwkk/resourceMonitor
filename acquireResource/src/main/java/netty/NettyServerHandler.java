@@ -33,6 +33,7 @@ public class NettyServerHandler extends ChannelHandlerAdapter {
 			JSONArray json =  JSONArray.fromObject(body);
 		}
 		System.out.println();
+		System.out.println();
 		// System.out.println("The time server receive order:" + body
 		// +"; the counter is : "+ ++counter);
 		// String currentTime = "QUERY TIME ORDER".equalsIgnoreCase(body)
