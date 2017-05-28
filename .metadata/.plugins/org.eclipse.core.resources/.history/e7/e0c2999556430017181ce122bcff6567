@@ -17,14 +17,14 @@ public class NettyClientHandler extends ChannelHandlerAdapter {
 	private static final Logger logger = Logger
 			.getLogger(NettyClientHandler.class.getName());
 	//private int counter;
-//	private byte[] req;
-//	
-//	//private final ByteBuf firstMessage;
-//	public NettyClientHandler() {
-//		req = ("CPUSize"+System.getProperty("line.separator")).getBytes();
-////		firstMessage = Unpooled.buffer(req.length);
-////		firstMessage.writeBytes(req);
-//	}
+	private byte[] req;
+	
+	//private final ByteBuf firstMessage;
+	public NettyClientHandler() {
+		req = ("CPUSize"+System.getProperty("line.separator")).getBytes();
+//		firstMessage = Unpooled.buffer(req.length);
+//		firstMessage.writeBytes(req);
+	}
 //	@Override
 //	public void channelActive(ChannelHandlerContext ctx) throws Exception {
 //		//ctx.writeAndFlush(firstMessage);

@@ -17,23 +17,23 @@ public class NettyServerHandler extends ChannelHandlerAdapter {
 		// byte[] req = new byte[buf.readableBytes()];
 		// buf.readBytes(req);
 		String body = (String) msg;
-		System.out.println(body);
-//		if(body.startsWith("{\"CPUUsageRate\":")){
-//			JSONObject json =  JSONObject.fromObject(body);
-//		}
-//		if(body.startsWith("[{\"diskName\":")){
-//			JSONArray json =  JSONArray.fromObject(body);
-//		}
-//		if(body.startsWith("{\"memorySize\":")){
-//			JSONObject json =  JSONObject.fromObject(body);
-//		}
-//		if(body.startsWith("{\"memoryUsageRate\":")){
-//			JSONObject json =  JSONObject.fromObject(body);
-//		}
-//		if(body.startsWith("[{\"Interface\":")){
-//			JSONArray json =  JSONArray.fromObject(body);
-//		}
-		
+		if(body.startsWith("{\"CPUUsageRate\":")){
+			JSONObject json =  JSONObject.fromObject(body);
+		}
+		if(body.startsWith("[{\"diskName\":")){
+			JSONArray json =  JSONArray.fromObject(body);
+		}
+		if(body.startsWith("{\"memorySize\":")){
+			JSONObject json =  JSONObject.fromObject(body);
+		}
+		if(body.startsWith("{\"memoryUsageRate\":")){
+			JSONObject json =  JSONObject.fromObject(body);
+		}
+		if(body.startsWith("[{\"Interface\":")){
+			JSONArray json =  JSONArray.fromObject(body);
+		}
+		System.out.println();
+		System.out.println();
 		// System.out.println("The time server receive order:" + body
 		// +"; the counter is : "+ ++counter);
 		// String currentTime = "QUERY TIME ORDER".equalsIgnoreCase(body)
@@ -52,7 +52,7 @@ public class NettyServerHandler extends ChannelHandlerAdapter {
 	@Override
 	public void channelActive(ChannelHandlerContext ctx) throws Exception {
 		String message = null;
-		message = "acquireResource";
+		message = "CPUUsageRate";
 		message += System.getProperty("line.separator");
 		ByteBuf resp = Unpooled.copiedBuffer(message.getBytes());
 		ctx.writeAndFlush(resp);
