@@ -45,21 +45,24 @@ public class NettyServerHandler extends ChannelHandlerAdapter {
 		// ctx.writeAndFlush(resp);
 	}
 
-	// @Override
-	// public void channelReadComplete(ChannelHandlerContext ctx) throws
-	// Exception {
-	// ctx.flush();
-	// }
+
+	public void acquireResource(String message){
+		System.out.println("massage:"+message);
+	}
 	@Override
-	public void channelActive(final ChannelHandlerContext ctx) throws Exception {
+	public void channelActive( ChannelHandlerContext ctx) throws Exception {
 		String message = null;
 		message = "acquireResource";
 		message += System.getProperty("line.separator");
-		//while(true){
-		ByteBuf resp = Unpooled.copiedBuffer(message.getBytes());
-		ctx.writeAndFlush(resp);
-		//Thread.sleep(5000);
+		ByteBuf resp = null;
+		for (int i = 0; i < 3; i++) {
+			
 		
+		resp = Unpooled.copiedBuffer(message.getBytes());
+		ctx.writeAndFlush(resp);
+		//resp.release();
+		//Thread.sleep(5000);
+		}
 	}
 
 	@Override

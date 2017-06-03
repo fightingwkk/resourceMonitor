@@ -1098,3 +1098,72 @@ org.eclipse.core.runtime.CoreException: Launch configuration AcquireCPU referenc
 2017-05-28 18:38:54,850 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
 2017-05-28 18:38:54,864 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-28 18:38:54,864 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-05-31 15:42:46,813 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.wkk:acquireResource:0.0.1-SNAPSHOT @ /home/wangkk/workspace/resourceMonitor/acquireResource/pom.xml.
+2017-05-31 15:42:47,998 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /acquireResource/src/main/java
+2017-05-31 15:42:47,998 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /acquireResource/src/test/java
+2017-05-31 15:42:48,191 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2017-05-31 15:42:51,214 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:42:51,223 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-05-31 15:42:51,229 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:42:51,229 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-05-31 15:49:27,673 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:49:27,676 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-05-31 15:49:27,678 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:49:27,686 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-05-31 15:49:57,598 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:49:57,600 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-05-31 15:49:57,601 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:49:57,602 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-05-31 15:51:48,336 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:51:48,337 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-05-31 15:51:48,338 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:51:48,338 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-05-31 17:13:04,445 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:13:04,518 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-05-31 17:13:04,520 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:13:04,524 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 00:08:34,825 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.wkk:acquireResource:0.0.1-SNAPSHOT @ /home/wangkk/workspace/resourceMonitor/acquireResource/pom.xml.
+2017-06-01 00:08:37,413 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:08:37,451 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 00:08:37,465 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:08:37,465 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 00:13:49,301 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:13:49,305 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 00:13:49,306 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:13:49,307 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 00:18:42,001 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:18:42,024 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 00:18:42,025 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:18:42,026 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 09:27:16,071 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.wkk:acquireResource:0.0.1-SNAPSHOT @ /home/wangkk/workspace/resourceMonitor/acquireResource/pom.xml.
+2017-06-01 09:27:17,285 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /acquireResource/src/main/java
+2017-06-01 09:27:17,289 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /acquireResource/src/test/java
+2017-06-01 09:27:17,496 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2017-06-01 09:27:20,516 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:27:20,534 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 09:27:20,539 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:27:20,540 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 09:28:16,535 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:28:16,537 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 09:28:16,538 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:28:16,543 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 09:52:25,745 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:52:25,772 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 09:52:25,774 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:52:25,774 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 09:58:15,873 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:58:15,873 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 09:58:15,877 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 09:58:15,878 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 11:00:39,776 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 11:00:39,828 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 11:00:39,830 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 11:00:39,830 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 11:31:46,594 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 11:31:46,605 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 11:31:46,624 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 11:31:46,625 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
+2017-06-01 11:33:05,099 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 11:33:05,099 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/main/resources
+2017-06-01 11:33:05,100 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 11:33:05,105 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/wangkk/workspace/resourceMonitor/acquireResource/src/test/resources
